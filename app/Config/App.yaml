@@ -1,0 +1,23 @@
+app_conf:
+  host: ''
+#konfigurasi mysql
+mysql_conf:
+  host: '172.17.0.1'
+  port: 3307
+  dbname: 'mylog2'
+  username: 'admin'
+  password: 'qwerty234*'
+#temapt database di-restore
+mysql_restore_conf:
+  host: '172.17.0.1'
+  port: 3306
+  dbname: 'restore2'
+  username: 'root'
+  password: 'qwerty234*'
+#konfigurasi cockroachdb
+cockroach_conf:
+  host: '172.17.0.1'
+  port: 26257
+  user: 'root'
+  password: 'qwerty234*'
+  dbname: 'test_restore'
