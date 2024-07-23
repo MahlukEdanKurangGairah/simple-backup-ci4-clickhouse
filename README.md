@@ -17,8 +17,8 @@ run on CLI using:
 also install python and library on requirements.txt
 
 - `cd app/Executable/sql2mysql' && pip install -r requirements.txt`
-- `cd app/Executable/sql2mysql' && pip install -r requirements.txt`
-- `cd app/Executable/sql2mysql' && pip install -r requirements.txt`
+- `cd app/Executable/parquet2cockroach' && pip install -r requirements.txt`
+- `cd app/Executable/parquet2mysql' && pip install -r requirements.txt`
 
 ## Setup
 Configuration on app/Config/App.yaml. change mysql_conf (target to backup) and mysql_restore_conf (targt to restore)
@@ -32,6 +32,5 @@ PHP version 7.4 or higher is required, with the following extensions installed:
 
 > [!WARNING]
 > This application under heavy development, use as yu wise.
-> The end of life date for PHP 8.0 was November 26, 2023.
-> If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> The end of life date for PHP 8.1 will be November 25, 2024.
+## Run
+`php public/index.php`
