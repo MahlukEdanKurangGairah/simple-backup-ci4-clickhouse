@@ -1,0 +1,7 @@
+polars
+pyarrow
+psycopg2-binary
+SQLAlchemy
+sqlalchemy-cockroachdb
+sqlalchemy-utils
+PyYAML

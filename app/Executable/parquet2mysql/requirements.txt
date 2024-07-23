@@ -1,0 +1,6 @@
+polars
+pyarrow
+PyMySQL
+SQLAlchemy
+sqlalchemy-utils
+PyYAML
