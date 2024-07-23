@@ -1,3 +1,4 @@
 [client]
 user=admin
-password=qwerty234*
+password=
+max_allowed_packet=2G
