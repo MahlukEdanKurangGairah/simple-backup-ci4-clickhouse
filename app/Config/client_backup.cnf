@@ -1,4 +1,4 @@
 [client]
-user=admin
+user=root
 password=
 max_allowed_packet=2G
