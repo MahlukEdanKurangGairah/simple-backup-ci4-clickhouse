@@ -38,5 +38,7 @@ PHP version 7.4 or higher is required, with the following extensions installed:
 ## Run
 `/usr/bin/php public/index.php`
 
+backup folder will placed in `backup_folder` with 2 folder 'struktur' and 'parquet'
+
 > [!WARNING]
 > This application under heavy development, use as yu wise.
