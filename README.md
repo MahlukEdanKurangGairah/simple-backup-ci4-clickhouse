@@ -11,7 +11,7 @@ run on CLI using:
 ## Installation & updates
 - run `git clone https://github.com/MahlukEdanKurangGairah/simple-backup-ci4-clickhouse.git`
 - `cd simple-backup-ci4-clickhouse`
-- `./composer.phar install` then `composer update`
+- `./composer.phar install` then `./composer.phar update`
 
 download clickhouse and place it on Executable folder
 
