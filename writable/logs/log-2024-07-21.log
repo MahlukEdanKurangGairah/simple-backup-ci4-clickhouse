@@ -1,0 +1,51 @@
+CRITICAL - 2024-07-21 20:13:37 --> ErrorException: chmod(): No such file or directory
+in APPPATH/Controllers/Operasi_mysql.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Operasi_mysql.php(67): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->create_backup_mysql_parquet()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-21 20:17:15 --> ErrorException: chmod(): No such file or directory
+in APPPATH/Controllers/Operasi_mysql.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Operasi_mysql.php(67): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->create_backup_mysql_parquet()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-21 20:18:32 --> ErrorException: chmod(): No such file or directory
+in APPPATH/Controllers/Operasi_mysql.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Operasi_mysql.php(67): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->create_backup_mysql_parquet()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-21 20:21:29 --> ErrorException: chmod(): No such file or directory
+in APPPATH/Controllers/Operasi_mysql.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Operasi_mysql.php(67): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->create_backup_mysql_parquet()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-21 20:24:44 --> ErrorException: chmod(): No such file or directory
+in APPPATH/Controllers/Operasi_mysql.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Operasi_mysql.php(67): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->create_backup_mysql_parquet()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-21 22:12:00 --> League\Flysystem\UnableToWriteFile: Unable to write file at location: t_gn_callhistory.sql. file_put_contents(/var/www/html/app/../backup_folder/testing-20240715-x/struktur/t_gn_callhistory.sql): failed to open stream: No such file or directory
+in VENDORPATH/league/flysystem/src/UnableToWriteFile.php on line 24.
+ 1 VENDORPATH/league/flysystem/src/Local/LocalFilesystemAdapter.php(122): League\Flysystem\UnableToWriteFile::atLocation()
+ 2 VENDORPATH/league/flysystem/src/Local/LocalFilesystemAdapter.php(101): League\Flysystem\Local\LocalFilesystemAdapter->writeToFile()
+ 3 VENDORPATH/league/flysystem/src/Filesystem.php(44): League\Flysystem\Local\LocalFilesystemAdapter->write()
+ 4 APPPATH/Helpers/myfile_helper.php(62): League\Flysystem\Filesystem->write()
+ 5 APPPATH/Controllers/Operasi_mysql.php(58): create_file()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->create_backup_mysql_parquet()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

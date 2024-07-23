@@ -1,0 +1,91 @@
+CRITICAL - 2024-07-22 10:26:58 --> ParseError: syntax error, unexpected ''1'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Controllers/Operasi_mysql.php on line 17.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 13:29:22 --> Error: Class 'App\Controllers\CLI' not found
+in APPPATH/Controllers/Home.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->run()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 17:55:52 --> ArgumentCountError: Too few arguments to function App\Controllers\Operasi_mysql::restore_db(), 0 passed in /var/www/html/app/Controllers/Operasi_mysql.php on line 28 and exactly 1 expected
+in APPPATH/Controllers/Operasi_mysql.php on line 112.
+ 1 APPPATH/Controllers/Operasi_mysql.php(28): App\Controllers\Operasi_mysql->restore_db()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->run()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 17:57:45 --> ArgumentCountError: Too few arguments to function App\Controllers\Operasi_mysql::restore_db(), 0 passed in /var/www/html/app/Controllers/Operasi_mysql.php on line 28 and exactly 1 expected
+in APPPATH/Controllers/Operasi_mysql.php on line 112.
+ 1 APPPATH/Controllers/Operasi_mysql.php(28): App\Controllers\Operasi_mysql->restore_db()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->run()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 17:58:26 --> Error: Class 'CLI' not found
+in APPPATH/Helpers/python_helper.php on line 23.
+ 1 APPPATH/Controllers/Operasi_mysql.php(113): restore_parquet2mysql()
+ 2 APPPATH/Controllers/Operasi_mysql.php(28): App\Controllers\Operasi_mysql->restore_db()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->run()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 21:18:09 --> ParseError: syntax error, unexpected '<', expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH/Controllers/Operasi_mysql.php on line 119.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 21:18:28 --> TypeError: Argument 1 passed to League\Flysystem\Filesystem::listContents() must be of the type string, null given, called in /var/www/html/app/Helpers/mysqlclient_helper.php on line 47
+in VENDORPATH/league/flysystem/src/Filesystem.php on line 88.
+ 1 APPPATH/Helpers/mysqlclient_helper.php(47): League\Flysystem\Filesystem->listContents()
+ 2 APPPATH/Controllers/Operasi_mysql.php(113): is_backup_folder_exist()
+ 3 APPPATH/Controllers/Operasi_mysql.php(28): App\Controllers\Operasi_mysql->restore_db()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->run()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 21:20:35 --> TypeError: Argument 1 passed to League\Flysystem\Filesystem::listContents() must be of the type string, null given, called in /var/www/html/app/Helpers/mysqlclient_helper.php on line 47
+in VENDORPATH/league/flysystem/src/Filesystem.php on line 88.
+ 1 APPPATH/Helpers/mysqlclient_helper.php(47): League\Flysystem\Filesystem->listContents()
+ 2 APPPATH/Controllers/Operasi_mysql.php(113): is_backup_folder_exist()
+ 3 APPPATH/Controllers/Operasi_mysql.php(28): App\Controllers\Operasi_mysql->restore_db()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->run()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 21:21:34 --> ErrorException: count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Operasi_mysql.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Operasi_mysql.php(114): count()
+ 3 APPPATH/Controllers/Operasi_mysql.php(28): App\Controllers\Operasi_mysql->restore_db()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->run()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 21:27:51 --> TypeError: Argument 1 passed to CodeIgniter\CLI\CLI::color() must be of the type string, object given, called in /var/www/html/app/Controllers/Operasi_mysql.php on line 121
+in SYSTEMPATH/CLI/CLI.php on line 594.
+ 1 APPPATH/Controllers/Operasi_mysql.php(121): CodeIgniter\CLI\CLI::color()
+ 2 APPPATH/Controllers/Operasi_mysql.php(28): App\Controllers\Operasi_mysql->restore_db()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->run()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-22 21:28:15 --> TypeError: Argument 1 passed to CodeIgniter\CLI\CLI::color() must be of the type string, object given, called in /var/www/html/app/Controllers/Operasi_mysql.php on line 121
+in SYSTEMPATH/CLI/CLI.php on line 594.
+ 1 APPPATH/Controllers/Operasi_mysql.php(121): CodeIgniter\CLI\CLI::color()
+ 2 APPPATH/Controllers/Operasi_mysql.php(28): App\Controllers\Operasi_mysql->restore_db()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Operasi_mysql->run()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
