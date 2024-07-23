@@ -28,27 +28,46 @@ Configuration on app/Config/App.yaml. change mysql_conf (target to backup) and m
 
 `
 app_conf:
+  
   host: ''
+
 #konfigurasi mysql
 mysql_conf:
+  
   host: '172.17.0.1'
+  
   port: 3307
+  
   dbname: 'target_backup'
+  
   username: 'admin'
+  
   password: ''
+
 #tempat database di-restore
 mysql_restore_conf:
+
   host: '172.17.0.1'
+
   port: 3306
+  
   dbname: 'target_restore'
+  
   username: 'root'
+  
   password: ''
+
 #konfigurasi cockroachdb
 cockroach_conf:
+  
   host: '172.17.0.1'
+  
   port: 26257
+  
   user: 'root'
+  
   password: 'qwerty234*'
+  
   dbname: 'test_restore'
 `
 
