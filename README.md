@@ -22,8 +22,6 @@ also install python and library on requirements.txt
 
 ## Setup
 Configuration on app/Config/App.yaml. change mysql_conf (target to backup) and mysql_restore_conf (targt to restore)
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
 
 PHP version 7.4 or higher is required, with the following extensions installed:
 
