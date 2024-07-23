@@ -11,10 +11,13 @@ run on CLI using:
 ## Installation & updates
 - run `git clone https://github.com/MahlukEdanKurangGairah/simple-backup-ci4-clickhouse.git`
 - `cd simple-backup-ci4-clickhouse`
-- `./composer.phar install`
-- then `composer update`
+- `./composer.phar install` then `composer update`
 
-also install python and library on requirements.txt
+download clickhouse and place it on Executable folder
+
+`cd app/Executable && curl https://clickhouse.com/ | sh`
+
+install python and library on requirements.txt
 
 - `cd app/Executable/sql2mysql' && pip install -r requirements.txt`
 - `cd app/Executable/parquet2cockroach' && pip install -r requirements.txt`
