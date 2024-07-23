@@ -1,7 +1,7 @@
 # SIMPLE BACKUP CI CLICKHOUSE
 
 ## What is SIMPLE BACKUP CI CLICKHOUSE?
-SIMPLE BACKUP CI CLICKHOUSE is application to backup MySQL/MariaDB database.
+SIMPLE BACKUP CI CLICKHOUSE is application to backup MySQL/MariaDB database, run on linux.
 run on CLI using:
 
 - CodeIgniter 4 framework.
