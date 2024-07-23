@@ -3,14 +3,17 @@
 ## What is SIMPLE BACKUP CI CLICKHOUSE?
 SIMPLE BACKUP CI CLICKHOUSE is application to backup MySQL/MariaDB database.
 run on CLI using:
-> CodeIgniter 4 framework
-> Clickhouse as parquet generator from MySQL
-> Python as worker executable
+CodeIgniter 4 framework.
+Clickhouse as parquet generator from MySQL.
+Python as worker executable.
 
 ## Installation & updates
 `git clone https://github.com/MahlukEdanKurangGairah/simple-backup-ci4-clickhouse.git`
+
 `./composer.phar install` then `composer update`
+
 also install python and library on requirements.txt
+
 `cd APPPATH.'Executable/sql2mysql' && pip install -r requirements.txt`
 
 ## Setup
