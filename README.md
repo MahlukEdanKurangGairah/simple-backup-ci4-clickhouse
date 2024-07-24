@@ -5,7 +5,7 @@ SIMPLE BACKUP CI CLICKHOUSE is application to backup MySQL/MariaDB database, run
 run on CLI using:
 
 - CodeIgniter 4 framework.
-- Clickhouse as parquet generator from MySQL.
+- Clickhouse converter from MySQL table to parquet.
 - Python as worker executable.
 
 ## Installation & updates
