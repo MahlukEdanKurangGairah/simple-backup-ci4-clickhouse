@@ -30,11 +30,6 @@ configure username and password mysql for target backup and target restore
 - `app/Config/client_backup.cnf`
 - `app/Config/client_restore.cnf`
 
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
 ## Run
 `/usr/bin/php public/index.php`
 
